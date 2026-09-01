@@ -62,9 +62,39 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "923305333bdd8a1229e8829cf727ee7ac48a8cee",
     "commitName": "feat: love - love cuando ningun jugador anota",
     "commitTimestamp": 1788272061132,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788272472949,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788272816334,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788272862576,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: 15 - love cuando jugador 1 anota 1 punto",
+    "commitTimestamp": 1788272949082,
+    "testId": 2
   }
 ]

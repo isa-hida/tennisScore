@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "923305333bdd8a1229e8829cf727ee7ac48a8cee",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-01T14:14:18.000Z",
       "message": "feat: love - love cuando ningun jugador anota",
-      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+      "url": "https://github.com/isa-hida/tennisScore/commit/923305333bdd8a1229e8829cf727ee7ac48a8cee"
     },
     "stats": {
       "total": 15,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-01T14:29:05.000Z",
+      "message": "feat: 15 - love cuando jugador 1 anota 1 punto",
+      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
