@@ -92,9 +92,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1a52cf4f3141cd0426745b6fe5b323b3deda324e",
     "commitName": "feat: 15 - love cuando jugador 1 anota 1 punto",
     "commitTimestamp": 1788272949082,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788273594613,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: love - love cuando ningun jugador anota30 - love cuando jugador 1 anota 2 puntos",
+    "commitTimestamp": 1788273625394,
+    "testId": 3
   }
 ]

@@ -11,5 +11,13 @@ describe("Tennis", () => {
         tennis.anotaPuntoJugador1();
         expect(tennis.obtenerScore()).toEqual("15 - Love");
     });
+
+    it("deberia mostrar 30 - love cuando jugador 1 anota 2 puntos", () => {
+        let tennis = new Tennis();
+        tennis.anotaPuntoJugador1();
+        tennis.anotaPuntoJugador1();
+        expect(tennis.obtenerScore()).toEqual("30 - Love");
+    });
+
 });
 
