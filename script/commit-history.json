@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fa0fb1eb8b3ea96c9f188211ea72377e9018d374",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-03T09:11:00.000Z",
       "message": "feat: Cuando el jugador 2 anota 1  vez love - 15",
-      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+      "url": "https://github.com/isa-hida/tennisScore/commit/fa0fb1eb8b3ea96c9f188211ea72377e9018d374"
     },
     "stats": {
       "total": 12,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-03T09:16:48.000Z",
+      "message": "feat: Cuando el jugador 2 anota 2  vez love - 30",
+      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -172,9 +172,55 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fa0fb1eb8b3ea96c9f188211ea72377e9018d374",
     "commitName": "feat: Cuando el jugador 2 anota 1  vez love - 15",
     "commitTimestamp": 1788426664200,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788426784803,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788426832513,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788426885875,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788426952710,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788426981815,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Cuando el jugador 2 anota 2  vez love - 30",
+    "commitTimestamp": 1788427010626,
+    "testId": 7
   }
 ]
