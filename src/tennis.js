@@ -14,6 +14,9 @@ class Tennis {
         if (this.puntosJugador1 === 4 && this.puntosJugador2 === 3) {
             return "Advantage Player 1";
         }
+        if (this.puntosJugador1 === 3 && this.puntosJugador2 === 4) {
+            return "Advantage Player 2";
+        }
         if (this.puntosJugador1 === 1) {
             return "15 - Love";
         }

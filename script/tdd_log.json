@@ -352,9 +352,39 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7ebe37241bc0f6a57c9012dc2ec18da02a8157a5",
     "commitName": "feat: Cuando el jugador 1 anota 4 y el jugador 2 anota 3 Advantage Player 1",
     "commitTimestamp": 1788428334489,
     "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788428428179,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788428464634,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788428519763,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Cuando el jugador 1 anota 3 y el jugador 2 anota 4 Advantage Player 2",
+    "commitTimestamp": 1788428549545,
+    "testId": 13
   }
 ]
