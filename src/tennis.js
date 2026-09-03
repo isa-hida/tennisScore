@@ -23,6 +23,9 @@ class Tennis {
         if (this.puntosJugador2 === 2) {
             return "Love - 30";
         }
+        if (this.puntosJugador2 === 3) {
+            return "Love - 40";
+        }
         return "Love - Love";
     }
     anotaPuntoJugador1() {
