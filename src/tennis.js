@@ -24,27 +24,50 @@ class Tennis {
             }
         }
 
+        if (this.puntosJugador1 === 1 && this.puntosJugador2 === 1) {
+            return "15 - 15";
+        }
+        if (this.puntosJugador1 === 2 && this.puntosJugador2 === 2) {
+            return "30 - 30";
+        }
+
         if (this.puntosJugador1 === 2 && this.puntosJugador2 === 1) {
             return "30 - 15";
         }
+        if (this.puntosJugador1 === 1 && this.puntosJugador2 === 2) {
+            return "15 - 30";
+        }
+        if (this.puntosJugador1 === 3 && this.puntosJugador2 === 1) {
+            return "40 - 15";
+        }
 
-        if (this.puntosJugador1 === 1) {
+        if (this.puntosJugador1 === 1 && this.puntosJugador2 === 3) {
+            return "15 - 40";
+        }
+        if (this.puntosJugador1 === 3 && this.puntosJugador2 === 2) {
+            return "40 - 30";
+        }
+        if (this.puntosJugador1 === 2 && this.puntosJugador2 === 3) {
+            return "30 - 40";
+        }
+
+        if (this.puntosJugador1 === 1 && this.puntosJugador2 === 0) {
             return "15 - Love";
         }
-        if (this.puntosJugador1 === 2) {
+        if (this.puntosJugador1 === 2 && this.puntosJugador2 === 0) {
             return "30 - Love";
         }
-        if (this.puntosJugador1 === 3) {
+        if (this.puntosJugador1 === 3 && this.puntosJugador2 === 0) {
             return "40 - Love";
         }
 
-        if (this.puntosJugador2 === 1) {
+        if (this.puntosJugador2 === 1 && this.puntosJugador1 === 0) {
             return "Love - 15";
         }
-        if (this.puntosJugador2 === 2) {
+        if (this.puntosJugador2 === 2 && this.puntosJugador1 === 0) {
             return "Love - 30";
         }
-        if (this.puntosJugador2 === 3) {
+        if (this.puntosJugador2 === 3 && this.puntosJugador1 === 0) {
             return "Love - 40";
         }
 

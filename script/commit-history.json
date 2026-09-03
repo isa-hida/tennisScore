@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "401530adf60f641c1847f05428454e997aa5690e",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-03T10:06:38.000Z",
       "message": "fix: HTML",
-      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+      "url": "https://github.com/isa-hida/tennisScore/commit/401530adf60f641c1847f05428454e997aa5690e"
     },
     "stats": {
       "total": 17,
@@ -299,6 +299,25 @@
       "date": "2026-09-03"
     },
     "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-03T10:15:54.000Z",
+      "message": "fix: refactorizando codigo",
+      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 29,
+      "deletions": 6,
+      "date": "2026-09-03"
+    },
+    "coverage": 84.44,
     "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
