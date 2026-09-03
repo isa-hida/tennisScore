@@ -1,15 +1,18 @@
-import sumar from "./sumador";
+import Tennis from "./tennis";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const juego = new Tennis();
+
+const form = document.querySelector("#love-form");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  if (event.submitter && event.submitter.id === "jugador1-button") {
+    juego.anotaPuntoJugador1();
+  } else if (event.submitter && event.submitter.id === "jugador2-button") {
+    juego.anotaPuntoJugador2();
+  }
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + juego.obtenerScore() + "</p>";
 });
