@@ -27,13 +27,13 @@ describe("Tennis", () => {
         expect(tennis.obtenerScore()).toEqual("40 - Love");
     });
 
-    it("deberia mostrar Game for player 1 cuando jugador 1 anota 4 puntos", () => {
+    it("deberia mostrar Game for Player 1 cuando jugador 1 anota 4 puntos", () => {
         let tennis = new Tennis();
         tennis.anotaPuntoJugador1();
         tennis.anotaPuntoJugador1();
         tennis.anotaPuntoJugador1();
         tennis.anotaPuntoJugador1();
-        expect(tennis.obtenerScore()).toEqual("Game for player 1");
+        expect(tennis.obtenerScore()).toEqual("Game for Player 1");
     });
 
     it("deberia mostrar Love - 15 cuando jugador 2 anota 1 punto", () => {
@@ -62,7 +62,7 @@ describe("Tennis", () => {
         tennis.anotaPuntoJugador2();
         tennis.anotaPuntoJugador2();
         tennis.anotaPuntoJugador2();
-        expect(tennis.obtenerScore()).toEqual("Game for player 2");
+        expect(tennis.obtenerScore()).toEqual("Game for Player 2");
     });
 
     it("deberia mostrar 30 - 15 cuando  jugador 1 anota 2 y jugador 2 anota 1", () => {
@@ -105,6 +105,21 @@ describe("Tennis", () => {
         tennis.anotaPuntoJugador2();
         tennis.anotaPuntoJugador2();
         expect(tennis.obtenerScore()).toEqual("Advantage Player 2");
+    });
+
+    it("deberia mostrar Game for Player 1 cuando  los jugadores estan en deuce y jugador 1 nota dos veces seguidos", () => {
+        let tennis = new Tennis();
+        tennis.anotaPuntoJugador1();
+        tennis.anotaPuntoJugador1();
+        tennis.anotaPuntoJugador1();
+        tennis.anotaPuntoJugador1();
+        tennis.anotaPuntoJugador1();
+        tennis.anotaPuntoJugador1();
+        tennis.anotaPuntoJugador2();
+        tennis.anotaPuntoJugador2();
+        tennis.anotaPuntoJugador2();
+        tennis.anotaPuntoJugador2();
+        expect(tennis.obtenerScore()).toEqual("Game for Player 1");
     });
 });
 

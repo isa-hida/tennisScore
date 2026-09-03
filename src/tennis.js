@@ -5,18 +5,29 @@ class Tennis {
         this.puntosJugador2 = 0;
     }
     obtenerScore() {
+        if (this.puntosJugador1 >= 4 && this.puntosJugador1 - this.puntosJugador2 >= 2) {
+            return "Game for Player 1";
+        }
+        if (this.puntosJugador2 >= 4 && this.puntosJugador2 - this.puntosJugador1 >= 2) {
+            return "Game for Player 2";
+        }
+
+        if (this.puntosJugador1 >= 3 && this.puntosJugador2 >= 3) {
+            if (this.puntosJugador1 === this.puntosJugador2) {
+                return "Deuce";
+            }
+            if (this.puntosJugador1 === this.puntosJugador2 + 1) {
+                return "Advantage Player 1";
+            }
+            if (this.puntosJugador2 === this.puntosJugador1 + 1) {
+                return "Advantage Player 2";
+            }
+        }
+
         if (this.puntosJugador1 === 2 && this.puntosJugador2 === 1) {
             return "30 - 15";
         }
-        if (this.puntosJugador1 === 3 && this.puntosJugador2 === 3) {
-            return "Deuce";
-        }
-        if (this.puntosJugador1 === 4 && this.puntosJugador2 === 3) {
-            return "Advantage Player 1";
-        }
-        if (this.puntosJugador1 === 3 && this.puntosJugador2 === 4) {
-            return "Advantage Player 2";
-        }
+
         if (this.puntosJugador1 === 1) {
             return "15 - Love";
         }
@@ -26,9 +37,7 @@ class Tennis {
         if (this.puntosJugador1 === 3) {
             return "40 - Love";
         }
-        if (this.puntosJugador1 === 4) {
-            return "Game for player 1";
-        }
+
         if (this.puntosJugador2 === 1) {
             return "Love - 15";
         }
@@ -37,9 +46,6 @@ class Tennis {
         }
         if (this.puntosJugador2 === 3) {
             return "Love - 40";
-        }
-        if (this.puntosJugador2 === 4) {
-            return "Game for player 2";
         }
 
         return "Love - Love";

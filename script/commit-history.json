@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "51fb78db7095de8b47d598b3474f6e6de2289801",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-03T09:42:27.000Z",
       "message": "feat: Cuando el jugador 1 anota 3 y el jugador 2 anota 4 Advantage Player 2",
-      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+      "url": "https://github.com/isa-hida/tennisScore/commit/51fb78db7095de8b47d598b3474f6e6de2289801"
     },
     "stats": {
       "total": 17,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-03T09:57:23.000Z",
+      "message": "feat: Cuando los jugadores estan en deuce y jugador 1 anota dos veces seguidos Game for Player 1",
+      "url": "https://github.com/isa-hida/tennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 55,
+      "additions": 38,
+      "deletions": 17,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

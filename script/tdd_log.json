@@ -382,9 +382,71 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "51fb78db7095de8b47d598b3474f6e6de2289801",
     "commitName": "feat: Cuando el jugador 1 anota 3 y el jugador 2 anota 4 Advantage Player 2",
     "commitTimestamp": 1788428549545,
     "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788428726649,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788428977224,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788429008532,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 2,
+    "numTotalTests": 15,
+    "timestamp": 1788429159757,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 2,
+    "numTotalTests": 15,
+    "timestamp": 1788429200602,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788429326939,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788429380873,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Cuando los jugadores estan en deuce y jugador 1 anota dos veces seguidos Game for Player 1",
+    "commitTimestamp": 1788429445154,
+    "testId": 14
   }
 ]
