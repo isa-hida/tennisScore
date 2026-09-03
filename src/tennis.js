@@ -8,6 +8,9 @@ class Tennis {
         if (this.puntosJugador1 === 2 && this.puntosJugador2 === 1) {
             return "30 - 15";
         }
+        if (this.puntosJugador1 === 3 && this.puntosJugador2 === 3) {
+            return "Deuce";
+        }
         if (this.puntosJugador1 === 1) {
             return "15 - Love";
         }
