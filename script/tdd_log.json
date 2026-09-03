@@ -142,9 +142,39 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0fd30d7cb93e66b04b28de675e9682c104630859",
     "commitName": "feat: Game for player 1",
     "commitTimestamp": 1788426355898,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788426526289,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788426573439,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788426623099,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Cuando el jugador 2 anota 1  vez love - 15",
+    "commitTimestamp": 1788426664200,
+    "testId": 6
   }
 ]
